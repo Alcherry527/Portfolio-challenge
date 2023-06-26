@@ -4,42 +4,48 @@ body {
 
 .title {
     padding: px20;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 50px;
     background-color: rgb(11, 154, 73);
-    color: rgb(213, 216, 214)
 }
-.background picture {
-width: 100%;
-margin-bottom: 25px;
-background-image: url("../images/digital-marketing-meeting.jpg");
-background-size: cover;
-background-position: center;
+
+.title h1 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(213, 216, 214);
 }
+
+.title nav {
+
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(213, 216, 214);
+}
+
 .intro { 
-    display:flex;
+    display:flex; 
+    flex-flow: row;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center; 
-    
+    justify-content: left; 
+    text-align: justify;
     ;}
 
-.nav buttons {
-    margin-left: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.resize {
+img {
     height: 100%;
     width: 100%;
     margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
+    float: left;
+
 }
 
-.modern 
+.modern {
+    width: 100%;
+}
+
+.Elements {
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(213, 216, 214);
+    background-color: rgb(11, 154, 73);
+}
