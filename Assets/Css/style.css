@@ -4,8 +4,10 @@ body {
 
 .title {
     padding: px20;
-    height: 50px;
+    Margin: 5px;
     background-color: rgb(11, 154, 73);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px saddlebrown;
 }
 
 .title h1 {
@@ -48,4 +50,7 @@ img {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(213, 216, 214);
     background-color: rgb(11, 154, 73);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px saddlebrown;
+
 }
