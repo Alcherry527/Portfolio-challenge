@@ -3,7 +3,9 @@ body {
 }
 
 .title {
-    padding: px20;
+    display: flex;
+    justify-content: space-around;
+    padding: px5;
     Margin: 5px;
     background-color: rgb(11, 154, 73);
     border-radius: 5px;
@@ -17,8 +19,7 @@ body {
 }
 
 .title nav {
-
-    float: right;
+    padding-bottom: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(213, 216, 214);
 }
